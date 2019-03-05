@@ -15,6 +15,7 @@ And the design of the application is as follows:
 ![Weather application](show/weatherMain.png)
 
 When the button is pressed, the weather will be updated to the latest and the toast will inform the user.
+
 当按钮被按下时，界面的天气情况都会被更新，并且toast显示消息在界面上告知用户天气已更新：
 
 ![Weather application - Design](show/weatherUpdate.png)
