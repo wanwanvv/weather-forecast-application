@@ -14,6 +14,11 @@ And the design of the application is as follows:
 
 ![Weather application](show/weatherMain.png)
 
+When the button is pressed, the weather will be updated to the latest and the toast will inform the user.
+当按钮被按下时，界面的天气情况都会被更新，并且toast显示消息在界面上告知用户天气已更新：
+
+![Weather application - Design](show/weatherUpdate.png)
+
 As the project is updated based on the project of dragona and added some functions, I will explain how to implement the update about the update part.
 If we need to specify what we will be doing, here is the list:
 该应用是在原有项目的基础上添加了部分功能实现的，我在这里主要说明一下我所更新得部分得实现。
@@ -249,10 +254,4 @@ When users click the button- “Update The Weather”, the weathers will be upda
 当用户点击按钮“Update The Weather”时，天气情况会更新到最新情况. 然后会发送一个toast消息来让告知用户界面已更新。我再btnClick函数里加了两行来代码来实现了此功能：
 
 ![Weather application - Design](show/button.png)
-
-The result of display is as follows:
-
-运行效果如图所示：
-
-![Weather application - Design](show/weatherUpdate.png)
 
